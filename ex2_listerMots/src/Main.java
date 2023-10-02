@@ -9,6 +9,8 @@ public class Main {
         Strategy strategyLongueur = new StrategyLongueur(5);
         Strategy strategyPalyndrome = new StrategyPalyndromes();
         Strategy strategyStartBy = new StrategyStartBy("S");
-        new ListerMots(args[0], strategyStartBy).imprimer();
+        Compteur compteur = new Compteur(strategyStartBy);
+        new ListerMots(args[0], compteur).imprimer();
+        System.out.println(compteur.getCompteur());
     }
 }

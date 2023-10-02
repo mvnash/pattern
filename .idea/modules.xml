@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/ex1_observers/ex1_observers.iml" filepath="$PROJECT_DIR$/ex1_observers/ex1_observers.iml" />
       <module fileurl="file://$PROJECT_DIR$/ex2_listerMots/ex2_listerMots.iml" filepath="$PROJECT_DIR$/ex2_listerMots/ex2_listerMots.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ex3_Strategy/ex3_Strategy.iml" filepath="$PROJECT_DIR$/ex3_Strategy/ex3_Strategy.iml" />
       <module fileurl="file://$PROJECT_DIR$/pattern.iml" filepath="$PROJECT_DIR$/pattern.iml" />
     </modules>
   </component>
