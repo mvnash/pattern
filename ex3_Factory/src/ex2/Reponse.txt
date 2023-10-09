@@ -1,9 +1,8 @@
 Participants théoriques
 Component => Boisson
-ConcreteComponent => Cafe
+ConcreteComponent => Cafe, Deca, Moka, Desssert
 Decorator => Additif
 ConcreteDecorator => Sucre/Lait
 
-
-Nom théorique des méthodes
+getNom()
 prix()

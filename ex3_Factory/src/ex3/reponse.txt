@@ -1,8 +1,12 @@
 Participants théoriques decorator
 Component => BattleShip
-Decorator => Captain
+ConcreteDecorator => Captain
+ConcreteComponent => Battlefishingboat
 
 
 Strategy avec les distances
+Context => BattleShip
+Strategy => Distance
+ConcreteStrategy : distanceMiles, distanceKms
 
 Adaptateur pour battlefishingboat
