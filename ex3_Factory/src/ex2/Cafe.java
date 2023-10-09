@@ -1,4 +1,5 @@
-public abstract class Cafe implements Boisson { 
+package ex2;
+public abstract class Cafe implements Boisson {
   private String nom;
   public Cafe(String nom) { 
     this.nom = nom;
@@ -8,6 +9,6 @@ public abstract class Cafe implements Boisson {
   }
   public abstract double prix();
   public String toString() {
-    return "Café " + getNom();
+    return "Cafï¿½ " + getNom();
   }
 }

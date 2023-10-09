@@ -1,3 +1,4 @@
+package ex2;
 public class Lait extends Additif {
   public Lait(Boisson boisson) { 
     super(boisson);

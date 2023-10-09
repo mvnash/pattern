@@ -1,0 +1,9 @@
+Participants théoriques
+Component => Boisson
+ConcreteComponent => Cafe
+Decorator => Additif
+ConcreteDecorator => Sucre/Lait
+
+
+Nom théorique des méthodes
+prix()

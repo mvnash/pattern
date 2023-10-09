@@ -1,4 +1,6 @@
-public abstract class Additif implements Boisson { 
+package ex2;
+
+public abstract class Additif implements Boisson {
   private Boisson boisson;
   public Additif(Boisson boisson) { 
     if (boisson == null) throw new IllegalArgumentException(); 

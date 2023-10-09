@@ -1,0 +1,8 @@
+Participants théoriques decorator
+Component => BattleShip
+Decorator => Captain
+
+
+Strategy avec les distances
+
+Adaptateur pour battlefishingboat

@@ -1,4 +1,5 @@
-public class Dessert extends Cafe { 
+package ex2;
+public class Dessert extends Cafe {
   public Dessert() {
     super("dessert");
   }

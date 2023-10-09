@@ -1,4 +1,5 @@
-public class Creme extends Additif { 
+package ex2;
+public class Creme extends Additif {
   public Creme(Boisson boisson) { 
     super(boisson);
   }
@@ -6,7 +7,7 @@ public class Creme extends Additif {
     return 0.15 + super.prix();
   }
   public String toString() {
-    return super.toString() + " crème";
+    return super.toString() + " crï¿½me";
   }
  }
 

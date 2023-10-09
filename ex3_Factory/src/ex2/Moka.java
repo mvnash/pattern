@@ -1,4 +1,5 @@
-public class Moka extends Cafe { 
+package ex2;
+public class Moka extends Cafe {
   public Moka() {
     super("moka");
   }
