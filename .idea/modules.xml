@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/ex2_listerMots/ex2_listerMots.iml" filepath="$PROJECT_DIR$/ex2_listerMots/ex2_listerMots.iml" />
       <module fileurl="file://$PROJECT_DIR$/ex3_Factory/ex3_Factory.iml" filepath="$PROJECT_DIR$/ex3_Factory/ex3_Factory.iml" />
       <module fileurl="file://$PROJECT_DIR$/ex4_state/ex4_state.iml" filepath="$PROJECT_DIR$/ex4_state/ex4_state.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ex5_builder/ex5A/ex5A.iml" filepath="$PROJECT_DIR$/ex5_builder/ex5A/ex5A.iml" />
       <module fileurl="file://$PROJECT_DIR$/ex5_builder/ex5_builder.iml" filepath="$PROJECT_DIR$/ex5_builder/ex5_builder.iml" />
       <module fileurl="file://$PROJECT_DIR$/pattern.iml" filepath="$PROJECT_DIR$/pattern.iml" />
     </modules>
