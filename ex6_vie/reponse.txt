@@ -1,0 +1,29 @@
+Observer
+Subject JeuDeLaVie
+Observer Espion utiliserRenseignements()
+ConcreteObserver JeuDeLaVieGUI
+
+Command
+Client Principale
+Command Activite
+ConcreteCommand Meurt, Vit => Activer()
+Receiver Cellule => doAction vit() meurt()
+Invokes JeuDeLaVie
+
+Singleton
+Singleton estMorte
+          estVivante
+getInstance() getInstance()
+
+State
+Context Cellule
+State Situation
+ConcreteStateA estMorte
+ConcreteStateB estVivante
+Request vit, meurt, estVivante,ajouterAuxVoisinsVivants,...
+
+Visitor
+Visitor Parcourir
+ConcreteVisitor ParcourirFort / ParcourirNormal
+Client Principale
+Element Cellule

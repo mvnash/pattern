@@ -8,6 +8,7 @@
       <module fileurl="file://$PROJECT_DIR$/ex4_state/ex4_state.iml" filepath="$PROJECT_DIR$/ex4_state/ex4_state.iml" />
       <module fileurl="file://$PROJECT_DIR$/ex5_builder/ex5A/ex5A.iml" filepath="$PROJECT_DIR$/ex5_builder/ex5A/ex5A.iml" />
       <module fileurl="file://$PROJECT_DIR$/ex5_builder/ex5_builder.iml" filepath="$PROJECT_DIR$/ex5_builder/ex5_builder.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ex6_vie/ex6_vie.iml" filepath="$PROJECT_DIR$/ex6_vie/ex6_vie.iml" />
       <module fileurl="file://$PROJECT_DIR$/pattern.iml" filepath="$PROJECT_DIR$/pattern.iml" />
     </modules>
   </component>
