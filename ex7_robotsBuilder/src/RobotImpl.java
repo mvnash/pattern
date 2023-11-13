@@ -1,4 +1,4 @@
-public class RobotImpl implements Robot{
+public class RobotImpl extends Object implements Robot {
     private final int canon;
     private final int shield;
     private final int freq;
@@ -11,6 +11,15 @@ public class RobotImpl implements Robot{
         this.freq = robotBuilder.freq;
         this.name = robotBuilder.name;
         this.hp= robotBuilder.hp;
+    }
+
+    @Override
+    public Robot clone() {
+        try {
+            return (Robot) super.clone();
+        } catch (CloneNotSupportedException e) {
+            throw new RuntimeException(e);
+        }
     }
 
     public int getCanon() {
