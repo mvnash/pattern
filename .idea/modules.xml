@@ -10,6 +10,7 @@
       <module fileurl="file://$PROJECT_DIR$/ex5_builder/ex5_builder.iml" filepath="$PROJECT_DIR$/ex5_builder/ex5_builder.iml" />
       <module fileurl="file://$PROJECT_DIR$/ex6_vie/ex6_vie.iml" filepath="$PROJECT_DIR$/ex6_vie/ex6_vie.iml" />
       <module fileurl="file://$PROJECT_DIR$/ex7_robotsBuilder/ex7_robotsBuilder.iml" filepath="$PROJECT_DIR$/ex7_robotsBuilder/ex7_robotsBuilder.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ex8_chain_resposability/ex8_chain_resposability.iml" filepath="$PROJECT_DIR$/ex8_chain_resposability/ex8_chain_resposability.iml" />
       <module fileurl="file://$PROJECT_DIR$/pattern.iml" filepath="$PROJECT_DIR$/pattern.iml" />
     </modules>
   </component>
