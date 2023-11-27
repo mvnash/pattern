@@ -1,0 +1,51 @@
+TemplateStrategy
+abstractClass : KaleidoscopeView
+ConcreteClass : RotateKV, FlipKV,...
+primitive operation : drawShapes()
+templatemethod : paint()
+
+
+Template Method
+Abstract class: Shape
+abstract method : draw()
+ConcreteClass : Polygon.circle
+
+Observer
+Observer KaleidoscopeView
+ConcreteObs : RotateKV
+FlipKV & TraditionKV
+NegativeKV
+Subject : kaleidoscope
+
+Composite
+Icomponent : ShapeMutationStrategy, ExplodeShapeMutationStrategy, ...
+Composite : CompositeShapeMutationStrategy
+Operation() : mutate
+
+
+Abstract Factory
+Factory : ShapeFactory
+ConcreteFactory : CircleFactory
+	CreateProduct : createShape
+	AbstractProduct : Shape
+	Product : Circle,..
+
+
+Strategy 
+Strategy : ShapeMutatioNStrategy
+ConcreteStrategy : SpinShapeMutationStrategy, ImplodeShapeMutationStrategy,...
+
+Iterator
+Iterator : ShapeIterator
+ConcreteAgregate : ShapeVector
+Next: next()
+hasnext: hasnext()
+Iterator : iterator()
+
+
+Prototype
+Prototype : Shape
+	clone() : copy()
+ConcretePrototype: Circle, Triangle, Rectangle, Square
+client : FlipKaleidoscopeView, NegativeKV,...
+
